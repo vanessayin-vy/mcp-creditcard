@@ -1,0 +1,6 @@
+{
+  "name": "CashMax",
+  "description": "AI-powered Singapore credit card cashback and reward maximizer dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

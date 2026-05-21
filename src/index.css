@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", var(--font-sans);
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Singapore Theme Colors */
+  --color-brand-primary: #101828; /* Professional high-contrast slate charcoal */
+  --color-brand-secondary: #002D62; /* Navy blue accent */
+  --color-cashback-green: #12B76A; /* Fresh emerald for reward growth */
+  --color-alert-amber: #F79009; /* Warm amber for min-spend alerts */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F9FC;
+  color: #101828;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom donut progress chart style */
+.donut-circle {
+  transition: stroke-dashoffset 0.8s ease-out;
+}
+
+/* Scrollbar styling for a clean design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E4E7EC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D0D5DD;
+}
